@@ -1,0 +1,236 @@
+/* Css Reset*/
+{
+margin:0px;
+padding:0px;
+}
+/*Header Styling*/
+#top{
+color:rgb(245,10,10);
+text align:center;
+font size:46px;
+font-family:"UbuntuMono",MonOspac
+}
+#top1{
+text-align="center;
+color:black;
+font-size:21px;
+font-family:"UbuntuMono;MonOspac}
+/*Navigationbar Styling*/
+/* Navigationbar image Styling*/
+#Navbar img{
+display:black;
+width:50px;
+height:50px;
+margin:auto;
+margin-bottom:3px;
+}
+/*Navbar Functionality*/
+#navbar{
+display:flex;
+flex-direction:column;
+background-color:green;
+height:14vh;
+width:100vw;
+font-family:"UbuntuMono",MonOspac margin-top:10px;
+border:2px solid black;
+border-radius;15px;
+}
+/*Navbar Content Styling*/
+ul li a{
+padding:1px;
+color:white;
+text-decoration:none;
+border-radius:10px;
+}
+ul li a:hover{
+background-color:red;
+border-radius:10px;
+}
+/*website background image designing*/
+#container 1{
+position:relative;
+display:flex;
+flex-direction:column;
+align-item:center;
+width:100vw;
+height:63vw;
+}
+/*Setting the background image using bef
+#Container1::before{
+content:' '; background:url("  C:\Users\dell\Desktop\image"\fr.JPEG File (.jpeg))no-repeat
+width:100vw;
+height:59vh;
+position:absolute;
+top:0px;
+left:opx;
+font-family:"UbuntuMono",MonOspac
+margin-right:45px;
+font weight:bold;
+Z-index:-1;
+opacity:0.89;
+border:2px solid black;
+border:bottom-left-radius:100px;
+}
+#row1{
+color:black;
+font-weight:bold;
+font-size:2 rem;
+text align:center;
+margin-top:35px;
+}
+/*Button Styling*/
+.btn{
+margin-top:15px;
+border:3px sokid white;
+border:3px-solid white;
+border-radius:15px;
+background-color:orange;
+font-size:20px;
+font-weight:bold;
+font-family:"UbuntuMono",MonOspac}
+.btn:hover{
+cursor:pointer:
+background-color:red;
+}
+#Container3{
+display:flex;
+justify-content:Space-evenly;
+}
+#row2{
+width:24vw;
+height:21vh;
+box-shadow:2px 7px 16px 19px;
+margin-top:51px;
+margin-bottom:51px
+display:flex;
+margin-left:30px;
+border-radius:40px;
+}
+#row3::before{
+content:'';
+background:url()no-repeatposition:absolute;
+top:0px;
+left:0px;
+width:24vw;
+height:21vh;
+Z-index:-1;
+border-iradius:40px;
+}
+#top3{
+text-align:Center;
+color:red;
+font-family:"UbuntuMono",MonOspac}
+#container4{
+disply:grid;
+grid-template-columns;
+repeat(auto-flex)
+}
+#roow4{
+width:29vw;
+height:360px;
+border:2px solid black;
+background:url()no-repeat
+display:flex;
+justify-content:center;
+bordr-radius:15px;
+}
+#row5{
+width:29vw;
+height:360px;
+border:2px solid black;
+background:url()no-repeatdisplay:flex;
+justify-content:center;
+align-item:flex-end;
+border-radius:15px;
+}
+row6{
+width:39vw;
+height:360px;
+border:2px solid black;
+background:url()no-repeat
+display:flex;
+justify-content:center;
+align-items:flex-end;
+border-radius:15px;
+/*Designing the footer*/
+footer{
+text-align:center;
+}
+/*desingning of Contact us*/
+#Contact Us{
+width:100vw;
+height:100vh:
+display:flex;
+flex-direction:column;
+align-item:center:
+background-color-gray:
+}
+.form-shape input;
+form-shape sekect;
+width:92%;
+padding:0.5 rem;}
+/*changing the color of Placeholder*/
+::Placeholder{
+color:gray;
+}
+/*Making the webpage responsive using me
+@media only screen and (max-width:11 31px)
+#row4{
+width:42vw;
+}
+#row5{
+width:45vw;
+}
+#row6{
+mardin-top:20px:
+width:90vw;
+}
+}
+@media only screen and(min-width:600px)
+{
+#row4{
+width:84vw;
+margin:auto;
+margin-left:22px;
+}
+#row5{
+width:84vw;
+margin:auto:
+margin-top:20px;
+margin-left:22px;
+#row6{
+width:84vw;
+margin:auto;
+margin-top:20px;
+margin-left:22px;
+}
+}
+@media only screen and(max-width:600px)
+#row4{
+width:78vw;
+margin:auto;
+margin-left:3px;
+}
+#row5{
+width:78vw;
+margin:auto;
+margin-top:20px;
+margin-left:3px;
+}
+#row6{
+width:78vw;
+margin:auto;
+margin-top:20px;
+margin-left:3px;
+}
+@media only screen and(min-height:1000px)
+#navbar{
+height:10vh;
+}
+#container1::before{
+height:39vh;
+}
+#container1{
+height:44vh
+}
+}
